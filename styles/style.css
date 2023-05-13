@@ -45,3 +45,12 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.card__image-container {
+  background-color: var(--color-soft-violet);
+}
+
+.card__image {
+  mix-blend-mode: multiply;
+  opacity: 0.75;
+}
