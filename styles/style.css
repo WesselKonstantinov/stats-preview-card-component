@@ -18,6 +18,8 @@ body {
   font-family: var(--font-primary);
   font-size: 0.9375rem;
   line-height: 1.6667;
+  display: grid;
+  place-content: center;
 }
 
 .sr-only {
@@ -30,4 +32,16 @@ body {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border-width: 0;
+}
+
+/* || Stats preview card component styles */
+.card {
+  max-width: 20.4375rem;
+  margin: 1.5rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 1.25rem 1.25rem -0.625rem hsl(233 28% 13% / 0.2);
+  background-color: var(--color-dark-desaturated-blue);
+  display: flex;
+  flex-direction: column;
 }
