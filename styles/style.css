@@ -1,1 +1,13 @@
 @import url("reset.css");
+
+/* || Global styles */
+:root {
+  --color-dark-blue: hsl(233 47% 7%);
+  --color-dark-desaturated-blue: hsl(244 38% 16%);
+  --color-soft-violet: hsl(277 64% 61%);
+  --color-white: hsl(0 0% 100%);
+  --color-transparent-white-75: hsl(0 0% 100% / 0.75);
+  --color-transparent-white-60: hsl(0 0% 100% / 0.6);
+  --font-primary: "Inter", sans-serif;
+  --font-secondary: "Lexend Deca", sans-serif;
+}
