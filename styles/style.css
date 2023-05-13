@@ -54,3 +54,52 @@ body {
   mix-blend-mode: multiply;
   opacity: 0.75;
 }
+
+.card__body {
+  padding: 2.5rem 2rem 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card__heading {
+  font-size: 1.75rem;
+  color: var(--color-white);
+  line-height: 1.142857;
+}
+
+.card__heading-highlight {
+  color: var(--color-soft-violet);
+}
+
+.card__stats {
+  margin: 1.5rem 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.card__stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+  line-height: 1.2;
+}
+
+.card__stat-number {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-white);
+}
+
+.card__stat-label {
+  font-family: var(--font-secondary);
+  font-size: 0.75rem;
+  color: var(--color-transparent-white-60);
+  text-transform: uppercase;
+  letter-spacing: 0.083333em;
+  line-height: 2.083333;
+}
