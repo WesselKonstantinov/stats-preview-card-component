@@ -103,3 +103,37 @@ body {
   letter-spacing: 0.083333em;
   line-height: 2.083333;
 }
+
+/* || Desktop styles */
+@media (min-width: 75rem) {
+  .card {
+    max-width: 69.375rem;
+    flex-direction: row-reverse;
+  }
+
+  .card__image-container {
+    flex-basis: 33.75rem;
+  }
+
+  .card__body {
+    padding: 4.4375rem 4.5rem 3.6875rem;
+    text-align: left;
+    flex-basis: 35.625rem;
+    gap: 1.5625rem;
+  }
+
+  .card__heading {
+    font-size: 2.25rem;
+    line-height: 1.22222;
+  }
+
+  .card__text {
+    margin-right: 3.28125rem;
+  }
+
+  .card__stats {
+    flex-direction: row;
+    gap: 3.75rem;
+    margin-top: auto;
+  }
+}
