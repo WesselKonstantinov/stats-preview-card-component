@@ -11,3 +11,23 @@
   --font-primary: "Inter", sans-serif;
   --font-secondary: "Lexend Deca", sans-serif;
 }
+
+body {
+  background-color: var(--color-dark-blue);
+  color: var(--color-transparent-white-75);
+  font-family: var(--font-primary);
+  font-size: 0.9375rem;
+  line-height: 1.6667;
+}
+
+.sr-only {
+  position: absolute;
+  width: 0.0625rem;
+  height: 0.0625rem;
+  padding: 0;
+  margin: -0.0625rem;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
