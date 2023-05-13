@@ -76,7 +76,6 @@ body {
 .card__stats {
   margin: 1.5rem 0 0;
   padding: 0;
-  list-style: none;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
